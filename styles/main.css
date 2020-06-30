@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: 'Catamaran', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #d8d8d6;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background: white;
+    background-image: url("../images/foil.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+    color: black;
+    display: flex;
+    padding: 180px;
+    text-align: center;
+}
+
+div.transbox {
+    background-color: white ;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+div.transbox p {
+    color: #000000;
+    font-weight: bold;
+    margin:  auto;
+    padding: 250px 150px 250px 150px;
+}
+
+div .transbox-papa {
+    background-color: white ;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+div .transbox-papa p {
+    color: #000000;
+    font-weight: bold;
+    margin:  auto;
+    padding: 10px 20px 10px 20px;
+}
+
+div.transbox-yasoda {
+    background-color: white ;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+div.transbox-yasoda p {
+    color: #000000;
+    font-weight: bold;
+    margin:  auto;
+    padding: 10px 20px 10px 20px;
+}
+
+div.transbox-andres {
+    background-color: white ;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+div.transbox-andres p {
+    color: #000000;
+    font-weight: bold;
+    margin:  auto;
+    padding: 10px 20px 10px 20px;
+}
+
+div.transbox-rajani {
+    background-color: white ;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+div.transbox-rajani p {
+    color: #000000;
+    font-weight: bold;
+    margin:  auto;
+    padding: 10px 20px 10px 20px;
+}
+section h1 { 
+    color: white;
+    font-family:'Catamaran', serif;
+    font-size: 125px;
+    display: inline-block;
+}
+
+.features figure{
+    margin: auto;
+    width: 100px;
+}
+
+h4 {
+    font-family:'Catamaran', serif;
+    color: white;  
+    font-size: 50px;
+    display: inline-block;
+}
+
+p .homepage {
+    background: #d8d8d6;
+    display: block;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+
+ul .second-navigation-bar {
+    color: black;
+    border-color: white;
+    }
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+li, a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background: #d8d8d6; 
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
