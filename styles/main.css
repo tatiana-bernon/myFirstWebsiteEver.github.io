@@ -18,14 +18,24 @@ header {
 
 section {
     background: white;
-    background-image: url("../images/foil.jpg");
+    background-image: url("../images/desk-pink.jpg");
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position: center;
     color: black;
     display: flex;
-    padding: 180px;
+    font-family: 'Catamaran', serif;
+    padding: 100px;
     text-align: center;
+}
+
+span #linkedin{
+    color: white;
+    text-decoration: none;
+}
+
+span:hover {
+    text-decoration: none;  
 }
 
 div.transbox {
@@ -115,8 +125,8 @@ p .homepage {
     background: #d8d8d6;
     display: block;
     font-size: 0px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul {
