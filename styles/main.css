@@ -12,7 +12,7 @@ body {
 
 header {
     background: #d8d8d6;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
     text-align: center;
 }
 
@@ -32,13 +32,26 @@ section {
     background: white;
     background-image: url("../images/foil.jpg");
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     background-position: center;
     color: black;
     display: flex;
     font-family: 'Catamaran', serif;
     padding: 100px;
     text-align: center;
+}
+section.features {
+    background-image: none;
+    background: white;
+    color: black;
+    display: flex;
+    font-family: 'Catamaran', serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
 }
 
 button {
@@ -66,70 +79,7 @@ span:hover {
     text-decoration: none;  
 }
 
-div.transbox {
-    background-color: white ;
-    border: 1px solid black;
-    opacity: 0.8;
-}
 
-div.transbox p {
-    color: #000000;
-    font-weight: bold;
-    margin:  auto;
-    padding: 250px 150px 250px 150px;
-}
-
-div .transbox-papa {
-    background-color: white ;
-    border: 1px solid black;
-    opacity: 0.8;
-}
-
-div .transbox-papa p {
-    color: #000000;
-    font-weight: bold;
-    margin:  auto;
-    padding: 10px 20px 10px 20px;
-}
-
-div.transbox-yasoda {
-    background-color: white ;
-    border: 1px solid black;
-    opacity: 0.8;
-}
-
-div.transbox-yasoda p {
-    color: #000000;
-    font-weight: bold;
-    margin:  auto;
-    padding: 10px 20px 10px 20px;
-}
-
-div.transbox-andres {
-    background-color: white ;
-    border: 1px solid black;
-    opacity: 0.8;
-}
-
-div.transbox-andres p {
-    color: #000000;
-    font-weight: bold;
-    margin:  auto;
-    padding: 10px 20px 10px 20px;
-}
-
-div.transbox-rajani {
-    background-color: white ;
-    border: 1px solid black;
-    opacity: 0.8;
-}
-
-div.transbox-rajani p {
-    color: #000000;
-    font-weight: bold;
-    margin:  auto;
-    padding: 10px 20px 10px 20px;
-}
 section h1 { 
     color: white;
     display: inline-block;
@@ -145,7 +95,7 @@ a.intro {
 }
 
 a.intro :hover {
-    text-transform: underline;
+    text-transform: uppercase;
 }
 
 .features figure{
@@ -188,6 +138,8 @@ ul .second-navigation-bar {
     padding: 10px;
     margin: 10px;
     }
+
+
 
 li {
     display: inline-block;
