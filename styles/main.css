@@ -4,7 +4,7 @@
 
 body {
     background: rgb(58, 58, 58);
-    color: white;
+    color: #6699cc;
     font-family: 'Catamaran', serif;
     margin: 0;
     padding: 0;
@@ -16,9 +16,21 @@ header {
     text-align: center;
 }
 
+a {
+    color:black; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: lowercase;
+}
+
+a:active {
+    text-transform: #8bd2fe;
+}
 section {
     background: white;
-    background-image: url("../images/desk-pink.jpg");
+    background-image: url("../images/foil.jpg");
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position: center;
@@ -27,6 +39,22 @@ section {
     font-family: 'Catamaran', serif;
     padding: 100px;
     text-align: center;
+}
+
+button {
+    background-color:#d8d8d6; 
+    border: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Catamaran', serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+button:hover {
+    text-transform: uppercase; 
+    background-color: white;
 }
 
 span #linkedin{
@@ -104,14 +132,33 @@ div.transbox-rajani p {
 }
 section h1 { 
     color: white;
+    display: inline-block;
     font-family:'Catamaran', serif;
     font-size: 125px;
-    display: inline-block;
+    text-decoration: none;
+    text-transform: none; 
+}
+
+a.intro {
+    color: white; 
+    text-decoration: none; 
+}
+
+a.intro :hover {
+    text-transform: underline;
 }
 
 .features figure{
     margin: auto;
+    text-align: center;
+    text-transform: uppercase;
     width: 100px;
+}
+
+.features figure img {
+    border-radius: 100px;
+    box-shadow: grey 0 0 50px;
+    width:280px;
 }
 
 h4 {
@@ -138,6 +185,8 @@ ul {
 ul .second-navigation-bar {
     color: black;
     border-color: white;
+    padding: 10px;
+    margin: 10px;
     }
 
 li {
@@ -151,8 +200,8 @@ li, a:hover {
 
 footer {
     background: #d8d8d6; 
-    padding: 10px 20px;
-    color: white;
+    padding: 20px 20px;
+    color: #6699cc;
     display: flex;
     flex-direction: column;
     text-align: center;
