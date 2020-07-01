@@ -42,7 +42,6 @@ section {
     text-align: center;
 }
 section.features {
-    background-image: none;
     background: white;
     color: black;
     display: flex;
