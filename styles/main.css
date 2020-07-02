@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
 
+/* Body */
 
 body {
     background: rgb(58, 58, 58);
-    color: #6699cc;
+    color: #007fd6;
     font-family: 'Catamaran', serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header */
 header {
     background: #d8d8d6;
     padding: 20px 40px 20px 40px;
@@ -23,24 +25,73 @@ a {
 
 a:hover {
     text-transform: lowercase;
+    color: #96390a;
 }
 
-a:active {
-    text-transform: #8bd2fe;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+
+ul .second-navigation-bar {
+    color: black;
+    border-color: white;
+    margin: 0px;
+    padding: 10px 10px;
+    
+    }
+
+nav .second-navigation-bar {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: rgb(226, 229, 232);
 }
+
+li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 25px;
+}
+
+li, a:hover {
+    text-transform: white;
+}
+
+/* Section */
+@media screen and (max-width:) {}  
 section {
     background: white;
     background-image: url("../images/foil.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: black;
     display: flex;
     font-family: 'Catamaran', serif;
     padding: 100px;
+    margin: auto 0;
     text-align: center;
 }
+section h1 { 
+    color: white;
+    display: inline-block;
+    font-family:'Catamaran', serif;
+    font-size: 125px;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0 auto;
+}
+
+section div {
+    margin: 0 auto;
+}
+
+div h1{
+    text-shadow: 6px 6px rgb(0,0,0,0.6);
+}
+
 section.features {
     background: white;
     color: black;
@@ -56,7 +107,7 @@ section.features {
 button {
     background-color:#d8d8d6; 
     border: black;
-    padding: 15px 32px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
     display: inline-block;
     font-family: 'Catamaran', serif;
@@ -69,45 +120,12 @@ button:hover {
     background-color: white;
 }
 
-span #linkedin{
-    color: white;
-    text-decoration: none;
-}
-
-span:hover {
-    text-decoration: none;  
-}
-
-
-section h1 { 
-    color: white;
-    display: inline-block;
-    font-family:'Catamaran', serif;
-    font-size: 125px;
-    text-decoration: none;
-    text-transform: none; 
-}
-
 a.intro {
-    color: white; 
-    text-decoration: none; 
+    color: white;  
 }
 
 a.intro :hover {
     text-transform: uppercase;
-}
-
-.features figure{
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100px;
-}
-
-.features figure img {
-    border-radius: 100px;
-    box-shadow: grey 0 0 50px;
-    width:280px;
 }
 
 h4 {
@@ -115,45 +133,18 @@ h4 {
     color: white;  
     font-size: 50px;
     display: inline-block;
+    text-shadow: 6px 6px rgb(0,0,0,0.2);
 }
 
-p .homepage {
-    background: #d8d8d6;
-    display: block;
-    font-size: 0px;
-    margin: 0px;
-    padding: 0px;
-}
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    }
-
-ul .second-navigation-bar {
-    color: black;
-    border-color: white;
-    padding: 10px;
-    margin: 10px;
-    }
-
-
-
-li {
-    display: inline-block;
-    margin: 20px;
-}
-
-li, a:hover {
-    text-decoration: none;
-}
-
+/* Footer */
 footer {
     background: #d8d8d6; 
     padding: 20px 20px;
-    color: #6699cc;
+    color: #007fd6;
     display: flex;
     flex-direction: column;
     text-align: center;
+    Font-size:  20px;
 }
+@media screen and () {
