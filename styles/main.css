@@ -54,7 +54,7 @@ li {
     font-size: 25px;
 }
 
-li, a:hover {
+li a:hover {
     text-transform: white;
 }
 
@@ -134,10 +134,6 @@ h4 {
     font-size: 50px;
     display: inline-block;
     text-shadow: 6px 6px rgb(0,0,0,0.4);
-}
-
-.unicorn:hover {
-    image: url("../images/COLOR_POP.jpg");
 }
 
 /* Footer */
