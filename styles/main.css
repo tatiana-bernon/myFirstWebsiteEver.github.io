@@ -68,9 +68,8 @@ section {
     background-attachment: fixed;
     background-position: center;
     color: black;
-    display: flex;
     font-family: 'Catamaran', serif;
-    padding: 500px;
+    padding: 300px;
     margin: auto 0;
     text-align: center;
 }
@@ -108,8 +107,9 @@ button {
     background-color:#d8d8d6; 
     border: black;
     padding: 10px 20px 10px 20px;
+    margin: 50px 40px;
     text-align: center;
-    display: inline-block;
+    display: cover;
     font-family: 'Catamaran', serif;
     font-size: 20px;
     white-space: nowrap;
