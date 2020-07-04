@@ -59,7 +59,6 @@ li a:hover {
 }
 
 /* Section */
-@media screen and (max-width:) {}  
 section {
     background: white;
     background-image: url("../images/foil.jpg");
@@ -139,17 +138,16 @@ h4 {
     border: 1px solid #555;
     border-radius: 55%;
     box-shadow: 2px 2px 2px 2px;
-    display: block; /* remove extra space below image */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    max-width: 35%;
-    max-height: 35%;
+    max-width: 15%;
+    max-height: 15%;
 }
 
 .bigger {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 /* Footer */
@@ -162,4 +160,66 @@ footer {
     text-align: center;
     Font-size:  20px;
 }
-@media screen and () {
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+    img { max-width: 100%; }
+    header { max-width: 100%; }
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    img { max-width: 100%; }
+    header { max-width: 100%; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 100px) { 
+    header { max-width: 100%; }
+    body {font-size:1rem;} 
+    img { min-width: 30%; }
+}
+
+@media (min-width: 640px) { 
+    header { max-width: 100%; }
+    body {font-size:1rem;} 
+    img { min-width: 30%; }
+}
+
+@media (min-width:960px) { 
+    header { max-width: 100%; }
+    body {font-size:1.2rem;} 
+    img { min-width: 30%; }
+}
+
+@media (min-width:1100px) { 
+    header { max-width: 100%; }
+    body {font-size:1.5rem;}
+    img { min-width: 30%; }
+}
