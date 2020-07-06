@@ -18,6 +18,7 @@ header {
     text-align: center;
 }
 
+
 a {
     color:black; 
     text-decoration: none;
@@ -32,6 +33,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    white-space: nowrap;
     }
 
 ul .second-navigation-bar {
@@ -39,6 +41,7 @@ ul .second-navigation-bar {
     border-color: white;
     margin: 0px;
     padding: 10px 10px;
+    white-space: nowrap;
     
     }
 
@@ -46,6 +49,7 @@ nav .second-navigation-bar {
     margin: 0;
     padding: 10px 10px;
     background-color: rgb(226, 229, 232);
+    white-space: nowrap;
 }
 
 li {
@@ -80,6 +84,7 @@ section h1 {
     text-decoration: none;
     text-transform: none;
     margin: 0 auto;
+    white-space: nowrap;
 }
 
 section div {
@@ -132,6 +137,7 @@ h4 {
     font-size: 50px;
     display: inline-block;
     text-shadow: 6px 6px rgb(0,0,0,0.4);
+    white-space: nowrap;
 }
 
 .testimonial {
@@ -161,11 +167,13 @@ footer {
     Font-size:  20px;
 }
 
+
+/* RESPONSIVE DESIGN*/
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
-    img { max-width: 100%; }
+    img { max-width: 100% }
     header { max-width: 100%; }
 }
 /* Tabled Portrait */
