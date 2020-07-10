@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Technical articles!</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+</head>
+    
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><h1>Sprint-3-technical</h1></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+
+            <ul class="second-navigation-bar">
+                <li><a href="reflections.html">REFLECTIONS</a></li>
+                <li><h1>Technical articles</h1></li>
+                <li><a href="sprint2_technical.html">Sprint-2-technical</a></li>
+            </ul>
+            </nav>
+            </header>
+            <section class="features">
+            <div>
+            <span></span><h2 class="bold-underline">What are the best practices associated with using classes vs. ids?</h2></span><br/>
+                <span>
+                    <p>Prior to digging into the best practices associated with classes and ids, lets look into what are tags and selectors.</p></span>
+                    <p>While HTML has ‘tags’ (used to delimit the start and end of elements in the markup.) CSS has ‘selectors’. </p><br>
+                    <img src="../images/html_element_breakdown.png" alt="Image showing an HTMl tag">
+                    <br>
+                    <h5>Image 1.0: HTMl tags</h5>
+                    <img src="../images/css_selector_declaration.png" alt="Image showing CSS selector">
+                    <br>
+                    <h5>Image 1.1: Css selector</h5>
+                    <br>
+                    <p>And  selectors are the names given to styles in internal and external style sheets (see diagram below). Selectors use the names of HTML tags and are used to change the style of a specific type of element, as you can see when having a look at the above images.</p><br/>
+                    <img src="../images/summary for internal and external style sheets.jpg" alt="Image comparing internal and external stylesheet">
+                    <p>Alright, so in brief, class and Ids are selectors. And to help you in understanding one step further in the way they work, we could say that ID’s and classes are “hooks”!</p><br>
+                    <img src="../images/hook2.jpg" alt="Image representation of classes and ids as hooks"><br>
+                    <h5><em>"These ID’s and Classes [are] the “hooks” we need to build into markup to get our hands on them. CSS obviously needs these so that we may build selectors and do our styling, but other web languages like Javascript depend on them to them too."</em><br><strong>- Chris Coyier -</strong></h5><br>
+                    <p>The class selector is used to specify a style for a group of HTML elements. Unlike the id selector, the class selector is most often used on several HTML elements.This allows you to set a particular style for many HTML elements with the same class.The class selector uses the HTML class attribute, and is defined with a "."</p><br>
+                    <img src="../images/Screen Shot 2020-07-01 at 11.00.21 AM.png" alt="Image showing CSS class selector and how it hooks to its corresponding HTMl class attribute"><br>
+                    <h5>Image 1.3: CSS class selector hooks HTMl class attribute.</h5><br>
+                    <p>The Id selector, identifies a unique element in your entire page. No other element should be declared with the same id. The css id selector is used to specify a style for a single, unique element. The css id selector uses the HTML element with the id attribute, and is defined with a "#".</p><br>
+                    <h5><em>"IDs are unique and beautiful snowflakes. Classes are not."</em><br><strong> - Rob Glazebrook - </strong></h5><br>
+                    <img src="../images/id selector and attribute.png" alt="Image representation of id selector and id attribute"><br>
+                    <p>Now, that we covered how  class “.” and id “#”works as CSS selectors and how they hook the respective html element attribute they want to style, let’s finally move to the best practices.</p><br>
+                    <p>Based on the very cool fact that ID’s are unique (Each element can have only one ID, Each page can have only one element with that ID) and that classes are not (You can use the same class on multiple elements, You can use multiple classes on the same element.), special attention should be placed on how and where they are used</p><br>
+                    <p>Another key difference in IDs vs. classes is that IDs tend to be more associated with javascript programming (i.e, a javascript function which finds a certain ID and performs an action on it, such as changing a color), while CSS is mostly associated with how your web looks like.</p><br>
+                    <p>Having discussed all of the above in regards to classes and id's, it is time to get a step deeper in terms of best practices. The material above surely will help in making sense of the following wise advise.</p><br>
+                    <h3>1. IDs and Classes should be use only when necessary<h3>
+                    <p>Use them only if really necessary and there is no other possible way as in the future it will be least of a maintenance burden. Also keep in mind that Id’s have a much higher specificity than classes . Let only a cvalss, on its own cannot change styles which belong to an ID. So in other words to change an Id you will have to either us more Id’s or to use “!important” which is not the wisest thing to do as it could leas to conflicts in your stylesheet leading you to restructure your HTML. So yeah nah!</h3><br>
+                    <p>Special Note: ID’s have a special browser functionality that classes do not have. The “hash value” also known as the fingerprints for files! This is just another important reason why ID’s have to be absolutely unique. So your browser knows where to scroll and finds them!</p><br>
+                    <h3><strong>2. Use Functional Names for your ID’s and classes</strong></h3> 
+                    <p> Choose to use names which would highlight the functionality of the element. For : <div class=”warning”>. The element function here is clear to its function. Functional names as such will in the future help understanding what is the id or class for and thus be clear to the coder, especially if the coder is seeing this code for the first time. </p><br>       
+                    <img src="../images/naming-convention.jpg" alt="Image from comic strip showing the consequence of not following naming conventions as a web developer">
+                    <h3><strong>3. Use generic names.</strong></h3>
+                    <p>If derive a name from an element’s function is not possible, or in the very case where you would introduce something only for styling purposes, using a generic; a “neutral” name is advised. Once mnore in terms of long term maintenance, will give coders less of a headache.
+                        Special note: Choose to use names “that are as short as possible but as Long as Necessary.Generally speaking, try to get to the point (nav), but don’t sacrifice comprehension (about).” Jens Oliver Meiert
+                    </p><br>
+                    <img src="../images/Strip-Trouver-le-nom-de-variable-english650-final.jpg" alt="Image from comic strip showing the trouble of naming as a web developer"><br>
+                    <p>I hope that this little insight on classes and ID’s have helped in clearing the hows and the whys linked to them. I would like to leave you with, what can be qualified as  THE basic and essential rule  to keep in mind when using CSS slectors “class” and “id”. Remember that id is used for single elements that appear only once on your page (e.g. header, footer, menu), whereas class can be used for single and/or multiple elements that appear on the page for once and/or more than once (e.g. paragraphs, links, buttons, input boxes).</p>
+                </span>
+            </div>      
+            </section>
+            <footer>
+                <h3>https://github.com/tatiana-bernon</h3>
+            </footer>          
+    </body>
+</html>
