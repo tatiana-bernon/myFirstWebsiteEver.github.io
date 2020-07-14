@@ -156,6 +156,15 @@ h4 {
     font-size: 25px;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Footer */
 footer {
     background: #d8d8d6; 
