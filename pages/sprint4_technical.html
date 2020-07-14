@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Technical articles!</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+</head>
+    
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><h1>Sprint-4-technical</h1></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+
+            <ul class="second-navigation-bar">
+                <li><a href="reflections.html">REFLECTIONS</a></li>
+                <li><h1>Technical articles</h1></li>
+                <li><a href="sprint2_technical.html">Sprint-2-technical</a></li>
+            </ul>
+            </nav>
+            </header>
+            <section class="features">
+            <div>
+            <span></span><h2 class="bold-underline">The relationship between HTML, CSS, JavaScript and the DOM.</h2></span><br/>
+                <span>
+                    <p><em><u>An analogy to describe the differences between HTML and CSS</u></em></p></span>
+                    <p>A simple analogy, lets say that a website is like a house. HTML is the different rooms of the house and what it contains and CSS is the different style in each room, eg: the color of the walls can change from one room to the other as well as the color or type of furniture. </p>
+                    <img src="../images/house analogy.gif" alt="squidward tentacles in sponge bob square pants inspecting house saying 'Alright, isnt it neat?'">
+                    <br>
+                    <p><em><u>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).</u></em></p>
+                    <br>
+                    <p>Loops are an example of control flow (which can be described as the order in which the computer executes statements in a script). An example of everyday life loop could be having a meal, you eat during your meal and until you are satisfied and full or not hungry anymore. Once you are not hungry anymore, you stop eating- your loop (bringing food to your mouth and ingest it) – your meal is completed.</p>
+                    <br>
+                    <img src="../images/eating.gif" alt="Image of anime character eating hungrily food">
+                    <br>
+                    <p><em><u>Describe what the DOM is and an example of how you might interact with it</u></em></p>
+                    <p>The <strong>DOM</strong> is the data representation of the objects that comprise the structure and content of a document on the web. It is composed of <em>nodes</em> (everything that makes up the <strong>DOM</strong>) and these <em>nodes</em> are organised in a tree structure called the <strong>DOM tree</strong>. In brief the <strong>DOM</strong> is composed of branches of <em>nodes</em> and follows this hierarchy: The <em>nodes</em> contains <em>nodes</em> and these <em>nodes</em> contains <em>nodes</em>. In the <strong>DOM</strong>, <em>nodes</em>  have an equivalent Javascript representation, eg: HTML tag <br> will be <em>HTMLBRElement</em> when manipulating the <strong>DOM</strong>.</p><br>
+                    <p>It is important to share also that the DOM allows Javascript to see the objects it needs to modify. And for the modifications to happen APIs too are needed otherwise one piece of data cannot communicate to the other and thus, Javascript alone wont do much.</p>
+                    <p>In saying so, here are some examples of how we might interact with the DOM:</p><br>
+                    <p>(i)	We can access (identify, locate) HTML and CSS elements in JavaScript.</p>
+                    <p>Example:</p>
+                    <ul>
+                        <li>using the querySelector or querySectorAll</li><br>
+                        <li>using Api – document.getElementById(‘id’) or document.getElementsByClass(‘class’)</li> 
+                    </ul>
+                    <p>(ii)	We can modify these elements.</p>
+                    <p>Example:  with Events and Event handlers(Event listeners):</p>
+                    <img src="../images/1.png" alt="Image showing event and event handler"><br>
+                    <p>(iii) We can also create new elements dynamically and add them to the DOM.  </p><br>
+                    <img src="../images/2.png" alt="Image showing a function making a button interactive"><br>
+                    <p><em><u>Explain the difference between accessing data from arrays and objects.</u></em></p>
+                    <p>Lets firstly review what are objects and arrays in JavaScript.</p>
+                    <p>Both objects and arrays are considered “special” in JavaScript. Both of them represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value).  Their main difference lays in the ways they are used.</p>
+                    <p>Objects are used when there is a need to represent an element that is made up and can be defined by a set of characteristics. (Note: These characteristics are called properties are comprised of a key and a value.)</p>
+                    <img src="../images/3.png" alt="Image showing the example of an object">
+                    <p>Arrays are used when we want/need to create and store a list of multiple items in a single variable. (Note :Array properties can also store values consisting of strings, numbers, booleans, objects, and even other arrays.)</p>
+                    <img src="../images/Screen Shot 2020-07-10 at 9.47.52 PM.png" alt="Image of the moon and the earth in dis-array"><br>
+                    <p>Alright, but more seriously, this is how an array looks like.</p>
+                    <img src="../images/4.png" alt="Image of example of array"><br>
+                    <p>The main difference between these two reside in how we can access data from them. Let’s see how we can access, add, and remove items/data in each case.
+                        In objects we can access/add/remove data by using either <strong>dot (.)</strong> or <strong>bracket notation [ ].</strong> As seen here:</p>
+                        <img src="../images/5.png" alt="Image of example of accessing an object via (.) or [bracket notation]"><br>
+                        <img src="../images/Screen Shot 2020-07-10 at 5.14.57 PM.png" alt="Image of example of removing an object"><br>  <br>
+                        <p>In arrays, to access the data it encapsulates, we need to use the zero-based indexing, where the first item in an array has an index of [0], the second item an index of [1], and so on.</p><br>  
+                        <img src="../images/6-1.png" alt="Image of example of accessing an object via indexation"><br>
+                        <img src="../images/6-2.png" alt="Image of example of accessing an object via indexation"><br>   
+                        <p>Furthermore, can be added and removed from the beginning or end of an array using the following methods: push(), pop(), unshift(), and shift()</p> 
+                        <img src="../images/7.png" alt="Image of example ofhow to add or remove items from arrays"><br>   
+                        <p><em><u>Explain what functions are and why they are useful</u></em></p>  
+                        <p>Functions (function objects) are pieces of code that performs a said task. And the task is executed when the very functions is invoked. In brief, each function declares what they do and also execute it once being called. Functions can be assigned to variables and every function returns a value (undefined by default). Functions stop executing when its line of code ends or when the execution flow finds the return key.</p>     
+                        <img src="../images/8.png" alt="Image of example of a function"><br> 
+                        <p>Functions are useful as  we can reuse code. Once it is defined once, the code be reused as many times as needed. And it can also be used with different arguments to produce different results.</p>
+                </span>
+            </div>      
+            </section>
+            <footer>
+                <h3>https://github.com/tatiana-bernon</h3>
+            </footer>          
+    </body>
+</html>
