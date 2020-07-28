@@ -72,6 +72,7 @@ section {
     background-position: center;
     color: black;
     font-family: 'Catamaran', serif;
+    image-
     padding: 300px;
     margin: auto 0;
     text-align: center;
@@ -80,7 +81,7 @@ section h1 {
     color: white;
     display: inline-block;
     font-family:'Catamaran', serif;
-    font-size: 2.5em;
+    font-size: 125px;
     text-decoration: none;
     text-transform: none;
     margin: 0 auto;
@@ -100,7 +101,7 @@ section.features {
     color: black;
     display: flex;
     font-family: 'Catamaran', serif;
-    font-size: 2.5em;
+    font-size: 25px;
     margin: 0;
     padding: 200px 100px 200px 100px;
     text-align: center;
@@ -114,7 +115,7 @@ button {
     text-align: center;
     display: cover;
     font-family: 'Catamaran', serif;
-    font-size: 2.0em;
+    font-size: 20px;
     white-space: nowrap;
 }
 
@@ -134,7 +135,7 @@ a.intro :hover {
 h4 {
     font-family:'Catamaran', serif;
     color: white;  
-    font-size: 5.0em;
+    font-size: 50px;
     display: inline-block;
     text-shadow: 6px 6px rgb(0,0,0,0.4);
     white-space: nowrap;
@@ -173,70 +174,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    Font-size:  2.0em;
+    Font-size:  20px;
 }
 
 
-/* RESPONSIVE DESIGN
-/* Tablet Landscape 
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-    img { max-width: 100% }
-    header { max-width: 100%; }
-}
-/* Tabled Portrait 
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-    img { max-width: 100%; }
-    header { max-width: 100%; }
-}
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
-
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
-
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
-
-@media (min-width: 100px) { 
-    header { max-width: 100%; }
-    body {font-size:1rem;} 
-    img { min-width: 30%; }
-}
-
-@media (min-width: 640px) { 
-    header { max-width: 100%; }
-    body {font-size:1rem;} 
-    img { min-width: 30%; }
-}
-
-@media (min-width:960px) { 
-    header { max-width: 100%; }
-    body {font-size:1.2rem;} 
-    img { min-width: 30%; }
-}
-
-@media (min-width:1100px) { 
-    header { max-width: 100%; }
-    body {font-size:1.5rem;}
-    img { min-width: 30%; }
-}*/
