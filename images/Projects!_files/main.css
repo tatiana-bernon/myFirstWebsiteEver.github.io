@@ -7,8 +7,8 @@ body {
     background: rgb(58, 58, 58);
     color: #007fd6;
     font-family: 'Catamaran', serif;
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
@@ -73,7 +73,6 @@ section {
     color: black;
     font-family: 'Catamaran', serif;
     padding: 300px;
-    display: center;
     margin: auto 0;
     text-align: center;
 }
@@ -97,36 +96,18 @@ div h1{
 }
 
 section.features {
-    text-align: center;
     background: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     color: black;
+    display: flex;
     font-family: 'Catamaran', serif;
     font-size: 25px;
-    margin: 0 auto;
-    padding: 300px 350px;
+    margin: 0;
+    padding: 300px;
     text-align: center;
     display: inline-block;
 }
 
-section.games {
-    text-align: center;
-    background: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: black;
-    font-family: 'Catamaran', serif;
-    font-size: 25px;
-    margin: 0 auto;
-    padding: 300px 750px;
-    text-align: center;
-    display: inline-block;  
-}
 button {
     background-color:#d8d8d6; 
     border: black;
