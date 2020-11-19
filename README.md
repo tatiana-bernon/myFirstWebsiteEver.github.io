@@ -18,3 +18,5 @@ OR
 
 From your desktop folder open the HTML file in your browser
 ```
+## Stretch
+In the future, I am planning to add a server maybe using express.js or that would be a great way to try another way. Also, I will use it to work on polishing my skills in terms of responsive design.
