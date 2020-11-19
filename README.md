@@ -12,9 +12,9 @@
 To get started, clone this repo and then:
 
 ```
-cd GLTE
-npm install
-npm run knex migrate:latest
-npm run knex seed:run
-npm run dev
+Just open the repo on your code editor to play with the code
+
+OR
+
+From your desktop folder open the HTML file in your browser
 ```
